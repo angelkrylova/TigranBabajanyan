@@ -1,0 +1,422 @@
+@media (max-width: 1250px){
+	.put__bid__form-inner textarea{
+		width: 380px;
+	}
+	.put__bid__form-inner input {
+    width: 310px;
+  }
+}
+@media (max-width: 1185px){
+	.put__bid__form-inner input {
+    width: 275px;
+  } 
+  .slick-btn{
+    top: 17%;
+  }
+}
+@media (max-width: 1105px){
+	.put__bid__form-inner input {
+    width: 235px;
+  }
+}
+@media (max-width: 1025px){
+	.put__bid-inner {
+    display: block;
+  }
+  .put__bid__form-inner{
+  	max-width: 600px;
+  	margin: 0 auto;
+  }
+  .put__bid__form-inner textarea,
+  .put__bid__form-inner input{
+  	width: 95%;
+  }
+
+}
+@media (max-width: 1050px){
+	.experience__img {
+    background-size: cover;
+    padding: 105px 0px 180px;
+  }
+	.experience__wrapper,
+	.experience__wrapper-text {
+     display: inline-block;
+     position: relative;
+     width: 75%;
+     height: 140px;
+		}
+		.experience__inner{
+			position: relative;
+		}
+		.experience__inner:nth-child(1){
+    position: absolute;
+    top: 0;
+    width: 300px;
+    left: 0;
+    }
+    .experience__inner:nth-child(2){
+    position: absolute;
+     left: 0; 
+    top: 200px;
+    width: 300px
+    }
+  .experience__inner:nth-child(3){
+    position: absolute;
+    right: 0;
+    width: 300px;
+    top: 200px;
+    }
+	.experience__inner:nth-child(4){
+    position: absolute;
+    top: 0;
+    width: 300px;
+    right: 0;
+    }
+
+		.experience__inner-text:nth-child(1){
+			position: absolute;
+			top: -70px;
+			width: 280px;
+			left: 0;
+			}
+		.experience__inner-text:nth-child(2){
+			position: absolute;
+			top: 170px;
+			width: 260px;
+			left: 0;
+			}
+		.experience__inner-text:nth-child(3){
+			position: absolute;
+			top: 170px;
+			width: 260px;
+			right: 0;
+			}
+		.experience__inner-text:nth-child(4){
+			position: absolute;
+			top: -70px;
+			width: 280px;
+			right: 0;
+			}
+			.strategy__wrapper .false{
+				display: none;
+			}
+
+		}
+@media (max-width: 975px){
+	.ask__inner-form {
+    max-width: 430px;
+    }
+    .ask__form-inner input{
+    	width: 100%
+    }
+		.result__inner {
+    display: inline-block;
+    width: 100%
+  }
+  .result__inner-content{
+  	padding-left: 0;
+  	padding-top: 30px;
+  }
+  .business__inner-text{
+  max-width: 500px;
+    margin: 0 auto;	
+  }
+  .business__img{
+  	padding-bottom: 150px;
+  }
+  .result__inner-img{
+    margin: 0 auto;
+  }
+    .menu ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    top: 80px
+  }
+  .menu li{
+    display: block;
+    text-align: center;
+  }
+  .menu a{
+    display: block;
+    background-color: #32353e;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+}
+.menu a:hover {
+    color: #3362f5;
+    }
+.menu ul li span:first-child {
+    float: none;
+}
+.menu ul li:first-child{
+  width: auto;
+}
+  .header__btn-menu{
+    display: block;
+  }
+}
+
+@media (max-width: 910px){
+	.ask__inner-wrapper {
+    max-width: 100%;
+    padding-right: 0;
+		}
+		.ask__inner {
+	     display: inline-block;
+	    }
+	  
+  .ask__inner-wrapper button{
+	display: block;
+	margin: 40px auto 0;
+}
+.ask__inner-form {
+    display: none;
+  }
+
+  .strategy__goal .slick-btn,
+  .strategy__imp .slick-btn{
+  	top:15%;
+  }
+  .footer__inner{
+  	display: block;
+  }
+  .footer__politica{
+  	padding: 24px 0;
+  }
+
+}
+
+@media (max-width: 812px){
+
+  .experience__wrapper, .experience__wrapper-text{
+  	width: 100%
+  }
+}
+@media (max-width: 680px){
+	.banner__inner-text,
+	.ask__inner-title ,
+	.experience__title,
+	.experience__inner-title,
+	.result__title,
+	.business__title,
+	.business__inner-title,
+	.strategy__title,
+	.strategy__goal-title,
+	.strategy__imp-title,
+	.put__bid-title{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .experience__inner-title{
+  	line-height: 20px;
+  }
+  .banner__inner-autor,
+  .ask__inner-suptitle,
+  .strategy__imp-title{
+  	padding-top: 30px;
+  }
+  .banner__inner-autor,
+  .ask__inner-suptitle,
+  .result__wrapper .result__team-text,
+  .result__inner-text,
+  .strategy__goal-text{
+    line-height: 20px;
+  	font-size: 16px;	
+  }
+  .ask__wrapper {
+    padding: 56px 0;
+  }
+  .ask__inner-text,
+  .result__inner-ask{
+  	line-height: 28px;
+  }
+  .experience__inner-title .men{
+  	font-size: 16px
+  }
+  .experience__img{
+  	padding: 60px 0px 180px
+  }
+  .experience__title{
+  	padding-bottom: 40px;
+  }
+  .experience__inner-text{
+  	font-size: 12px;
+  	line-height: 15px;
+  }
+  .experience__inner-text:nth-child(4),
+  .experience__inner-text:nth-child(1){
+  	top: 120px;
+  	width: 152px;
+  }
+  .experience__inner-text:nth-child(3),
+  .experience__inner-text:nth-child(2){
+  	top: -10px;
+  	width: 136px
+  }
+  .experience__inner:nth-child(2),
+  .experience__inner:nth-child(3){
+  	top: 110px;
+  	width: 170px
+  }
+  .experience__wrapper, 
+  .experience__wrapper-text{
+  	height: 40px
+  }
+ 
+  .experience__inner:nth-child(1),
+  .experience__inner:nth-child(4){
+  	width: 158px;
+  }
+  .experience__wrapper, .experience__wrapper-text{
+  	width: 70%
+  }
+  .result__wrapper {
+    padding: 62px 0!important;
+}
+.result__inner {
+    padding: 50px 0 20px;
+}
+  .result__wrapper .result__text,
+  .business__inner-text,
+  .strategy__goal-block-text, 
+  .strategy__imp-block-text{
+  	font-size: 14px;
+  	line-height: 18px;
+  }
+  .result__wrapper .result__team-text{
+  	padding: 30px 0px 0px;
+  }
+  .business__img{
+  	padding: 60px 0px 120px
+  }
+  .business__title{
+  	padding-bottom: 40px;
+  }
+	.strategy__title {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  
+  .strategy__plus .slick-dots{
+  	bottom: -20px
+  }
+  .strategy__goal .slick-btn,
+  .strategy__imp .slick-btn{
+  	top:10%;
+  }
+  .strategy__goal-inner,
+  .strategy__imp-title {
+    padding-top: 40px;
+  }
+  .strategy__goal-block-title, .strategy__imp-block-title, .strategy__goal-block-text, .strategy__imp-block-text{
+  	padding-left: 2px;
+  }
+  .strategy__imp-inner {
+    padding-top: 55px;
+}
+.put__bid__img{
+	padding: 50px 0px 60px;
+}
+.put__bid-text {
+    padding: 20px 0 35px;
+}
+.experience__title{
+  padding-bottom: 20px 
+}
+}
+@media (max-width: 620px){
+  .experience__wrapper, .experience__wrapper-text {
+    width: 80%;
+}
+}
+@media (max-width: 508px){
+  .banner__inner-text{
+    text-align: left;
+  }
+	.header__content {
+    padding: 20px 0px;
+  }
+  .header__call {
+    text-align: right;
+    max-width: 200px;
+    float: right;
+	}
+  .banner__inner,
+  .footer__copy-inner,
+  .footer__social-links {
+    display: block;
+    text-align: center;
+  }
+	.banner__inner-form {
+    padding-bottom: 48px;
+  }
+  .banner__inner-img{
+  	text-align: center;
+  }
+  .banner__inner-img img {
+    width: 80%;
+  }
+  .experience__wrapper, .experience__wrapper-text {
+    width: 100%;
+}
+.business__inner-icon img{
+	width: 90px;
+	height: 90px;
+}
+.strategy__goal .slick-btn{
+  	top:7%;
+  }
+  .footer__copy-inner{
+  	
+  }
+  .copy__text{
+  	padding: 35px 0 17px;
+  }
+  .footer__social-links .social-links{
+  	margin: 10px;
+  }
+.menu{
+  width: auto;
+}
+}
+@media (max-width: 460px){
+  .ask__form-inner label,
+  .ask__form-inner input{
+    padding-top: 16px;
+  	padding-bottom: 16px;
+  }
+  .ask__form-inner,
+  .ask__inner-form,
+  .ask__form button,
+  .ask__form-inner input{
+  	width: 100%;
+  }
+  .ask__form {
+    padding: 40px 25px
+  }
+   .put__bid__form-inner input ,
+   .put__bid__form-inner textarea{
+    width: 92%;
+}
+.put__bid button{
+    width: 82%;
+}
+}
+@media (max-width: 360px){
+  .experience__img {
+    padding-bottom: 220px;
+}
+.experience__inner:nth-child(1), .experience__inner:nth-child(4),
+.experience__inner:nth-child(2), .experience__inner:nth-child(3) {
+    width: 150px;
+}
+.experience__inner-text:nth-child(3), .experience__inner-text:nth-child(2) {
+    width: 130px;
+}
+.experience__inner-text:nth-child(4), .experience__inner-text:nth-child(1) {
+    width: 140px;
+}
+}
